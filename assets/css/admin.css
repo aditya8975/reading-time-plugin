@@ -1,0 +1,14 @@
+.rtp-settings-wrap .rtp-usage-box {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left: 4px solid #2271b1;
+	padding: 12px 16px;
+	margin-top: 24px;
+	max-width: 600px;
+}
+
+.rtp-settings-wrap .rtp-usage-box code {
+	background: #f0f0f1;
+	padding: 2px 6px;
+	border-radius: 3px;
+}

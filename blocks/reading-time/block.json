@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "reading-time/badge",
+	"title": "Reading Time",
+	"category": "widgets",
+	"icon": "clock",
+	"description": "Displays the estimated reading time for this post, calculated from your Reading Time plugin settings.",
+	"keywords": [ "reading time", "read time", "estimate" ],
+	"usesContext": [ "postId", "postType" ],
+	"attributes": {
+		"customWpm": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	},
+	"textdomain": "reading-time-plugin",
+	"style": "file:../../assets/css/reading-time.css"
+}

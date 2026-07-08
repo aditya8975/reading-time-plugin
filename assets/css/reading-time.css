@@ -1,0 +1,21 @@
+.rtp-reading-time {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 0.9em;
+	color: #555;
+	margin: 0 0 1em;
+}
+
+.rtp-reading-time .rtp-icon {
+	display: inline-flex;
+	line-height: 0;
+}
+
+.rtp-reading-time .rtp-icon svg {
+	display: block;
+}
+
+.rtp-block {
+	margin-bottom: 1em;
+}
