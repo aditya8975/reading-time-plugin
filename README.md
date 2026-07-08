@@ -4,6 +4,8 @@ A lightweight WordPress plugin that calculates and displays estimated reading
 time on posts and pages — settings page, `[reading_time]` shortcode, and a
 native Gutenberg block. No build tools, no dependencies, plain PHP/CSS/JS.
 
+![Logo Description](plugin.png)
+
 ## Features
 
 - Auto-inject before/after content, or manual-only mode
